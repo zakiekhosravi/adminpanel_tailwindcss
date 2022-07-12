@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: "Bakh";
+    font-style: normal;
+    font-weight: normal;
+    src: url('./src/fonts/bakh_Medium.woff');
+}
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: "Bakh" ,system-ui, sans-serif;
+    }
+  };
+.custom-icon-section-right{
+    @apply w-full  font-thin  text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500;
+}

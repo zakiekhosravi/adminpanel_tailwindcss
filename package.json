@@ -1,0 +1,16 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "admin and landing pages  using tailwindsing",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "npx tailwindcss -i ./input.css -o ./src/css/output.css --minify --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./src/css/output.css --minify"
+  },
+  "author": "zakie",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.5"
+  }
+}
